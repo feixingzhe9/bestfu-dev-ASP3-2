@@ -1,0 +1,11 @@
+..\output\faultmanage.o: ..\..\Lib_Code\SysLib\FaultManage.c
+..\output\faultmanage.o: ..\..\Lib_Code\SysLib\include\lib_type.h
+..\output\faultmanage.o: ..\SysHard\include\cpu.h
+..\output\faultmanage.o: ..\..\Lib_Code\SysLib\include\lib_config.h
+..\output\faultmanage.o: ..\..\Lib_Code\SysLib\include\Thread.h
+..\output\faultmanage.o: ..\SysHard\include\Instruct.h
+..\output\faultmanage.o: ..\SysHard\include\EEPROM.h
+..\output\faultmanage.o: ..\..\Lib_Code\SysLib\include\UserData.h
+..\output\faultmanage.o: ..\SysHard\include\iwdg.h
+..\output\faultmanage.o: ..\..\Lib_Code\SysLib\include\Upload.h
+..\output\faultmanage.o: ..\..\Lib_Code\SysLib\include\FaultManage.h

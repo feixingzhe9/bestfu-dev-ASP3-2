@@ -1,0 +1,16 @@
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\SysExeAttr.c
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\lib_type.h
+..\output\sysexeattr.o: ..\SysHard\include\cpu.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\lib_config.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\PivotalDataType.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\Updata.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\Thread.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\DataEncrypt.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\UserData.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\DeviceUpgradeAttr.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\DevPartTab.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\FaultManage.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\Upload.h
+..\output\sysexeattr.o: ..\..\Lib_Code\App\UnitCfg.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\UnitShare_Attr.h
+..\output\sysexeattr.o: ..\..\Lib_Code\SysLib\include\SysExeAttr.h

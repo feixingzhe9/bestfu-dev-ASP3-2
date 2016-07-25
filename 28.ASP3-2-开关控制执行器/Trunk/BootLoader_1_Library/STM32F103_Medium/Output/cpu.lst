@@ -1,0 +1,139 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ;/*  2012-9  Created by dezhi jiang
+    2 00000000         ; * xxxxxx   please added here
+    3 00000000         ; */
+    4 00000000         
+    5 00000000                 EXPORT           CPU_SR_Save
+    6 00000000                 EXPORT           CPU_SR_Restore
+    7 00000000                 EXPORT           WFI_SET
+    8 00000000                 EXPORT           Set_MSP
+    9 00000000                 EXPORT           SystemReset
+   10 00000000         
+   11 00000000         
+   12 00000000         ;*******************************************************
+                       *************************************************
+   13 00000000         ;                                      CODE GENERATION D
+                       IRECTIVES
+   14 00000000         ;*******************************************************
+                       *************************************************
+   15 00000000         
+   16 00000000                 AREA             |.text|, CODE, READONLY, ALIGN=
+2
+   17 00000000                 THUMB
+   18 00000000                 REQUIRE8
+   19 00000000                 PRESERVE8
+   20 00000000         
+   21 00000000         CPU_SR_Save
+   22 00000000 F3EF 8010       MRS              R0, PRIMASK
+   23 00000004 B672            CPSID            I
+   24 00000006 4770            BX               LR
+   25 00000008         
+   26 00000008         CPU_SR_Restore
+   27 00000008 F380 8810       MSR              PRIMASK, R0
+   28 0000000C 4770            BX               LR
+   29 0000000E         
+   30 0000000E         WFI_SET
+   31 0000000E BF30            WFI
+   32 00000010         
+   33 00000010         Set_MSP
+   34 00000010 F380 8808       MSR              MSP, r0     ;set Main Stack val
+                                                            ue
+   35 00000014 4770            BX               R14
+   36 00000016         
+   37 00000016         SystemReset
+   38 00000016 F04F 0001       MOV              R0, #1
+   39 0000001A F380 8813       MSR              FAULTMASK, R0 ;Çå³ýFAULTMASK½ûÖ
+                                                            ¹Ò»ÇÐÖÐ¶Ï
+   40 0000001E 4802            LDR              R0, =0xE000ED0C
+   41 00000020 4902            LDR              R1, =0x05FA0004
+   42 00000022 6001            STR              R1, [R0]    ;ÏµÍ³Èí¼þ¸´Î»   
+   43 00000024 BF00            NOP
+   44 00000026         
+   45 00000026         deadloop
+   46 00000026 E7FE            B                deadloop    ;µÈ´ýÏµÍ³¸´Î»
+   47 00000028         
+   48 00000028                 END
+              E000ED0C 
+              05FA0004 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=..\output\cpu.d -o..\output\cpu.o -I"E:\CompanyFiles\Ô­Ê¼¹¦ÄÜ´úÂë-
+¹¦ÄÜÊµÏÖ\20160330ÏµÍ³¿â²âÊÔ\20160601ÏµÍ³¿â²âÊÔÉè±¸¶ËÒÆÖ²³ÌÐò\28.ASP3-2-¿ª¹Ø¿ØÖÆ
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+Ö´ÐÐÆ÷\Trunk\BootLoader_1_Library\BootLoader Source\STM32F103_Medium\Project\RT
+E" -Id:\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include -Id:\Keil\ARM\CMS
+IS\Include --predefine="__UVISION_VERSION SETA 520" --predefine="STM32F10X_MD S
+ETA 1" --list=..\output\cpu.lst ..\SysHard\cpu.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 16 in file ..\SysHard\cpu.asm
+   Uses
+      None
+Comment: .text unused
+CPU_SR_Restore 00000008
+
+Symbol: CPU_SR_Restore
+   Definitions
+      At line 26 in file ..\SysHard\cpu.asm
+   Uses
+      At line 6 in file ..\SysHard\cpu.asm
+Comment: CPU_SR_Restore used once
+CPU_SR_Save 00000000
+
+Symbol: CPU_SR_Save
+   Definitions
+      At line 21 in file ..\SysHard\cpu.asm
+   Uses
+      At line 5 in file ..\SysHard\cpu.asm
+Comment: CPU_SR_Save used once
+Set_MSP 00000010
+
+Symbol: Set_MSP
+   Definitions
+      At line 33 in file ..\SysHard\cpu.asm
+   Uses
+      At line 8 in file ..\SysHard\cpu.asm
+Comment: Set_MSP used once
+SystemReset 00000016
+
+Symbol: SystemReset
+   Definitions
+      At line 37 in file ..\SysHard\cpu.asm
+   Uses
+      At line 9 in file ..\SysHard\cpu.asm
+Comment: SystemReset used once
+WFI_SET 0000000E
+
+Symbol: WFI_SET
+   Definitions
+      At line 30 in file ..\SysHard\cpu.asm
+   Uses
+      At line 7 in file ..\SysHard\cpu.asm
+Comment: WFI_SET used once
+deadloop 00000026
+
+Symbol: deadloop
+   Definitions
+      At line 45 in file ..\SysHard\cpu.asm
+   Uses
+      At line 46 in file ..\SysHard\cpu.asm
+Comment: deadloop used once
+7 symbols
+341 symbols in table

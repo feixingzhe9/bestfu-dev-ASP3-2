@@ -1,0 +1,15 @@
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\PhyMsgProc.c
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\lib_type.h
+..\output\phymsgproc.o: ..\SysHard\include\cpu.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\lib_config.h
+..\output\phymsgproc.o: ..\SysHard\include\SI4432.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\fifo.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\crc.h
+..\output\phymsgproc.o: ..\SysHard\include\iwdg.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\DataEncrypt.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\PivotalDataType.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\FaultManage.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\BestFuLib.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\FifoDataProc.h
+..\output\phymsgproc.o: ..\..\Lib_Code\SysLib\include\PhyMsgProc.h
+..\output\phymsgproc.o: ..\SysHard\include\usart.h

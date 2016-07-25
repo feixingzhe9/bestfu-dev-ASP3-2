@@ -1,0 +1,16 @@
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\LinkScanFifo.c
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\linkall.h
+..\output\linkscanfifo.o: ..\Lib_code\App\BF_type.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\BestFuLib.h
+..\output\linkscanfifo.o: ..\Lib_code\App\UnitCfg.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\UserData.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\Eeprom.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\fifo.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\linkcommon.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\linksimplest.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\linkall.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\LinkScanFifo.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\linksrc.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\MsgPackage.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\command.h
+..\output\linkscanfifo.o: ..\Lib_code\SysLib\inc\Thread.h

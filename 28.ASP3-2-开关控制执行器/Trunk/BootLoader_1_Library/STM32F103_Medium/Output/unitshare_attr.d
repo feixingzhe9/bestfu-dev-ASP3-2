@@ -1,0 +1,13 @@
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\UnitShare_Attr.c
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\lib_type.h
+..\output\unitshare_attr.o: ..\SysHard\include\cpu.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\lib_config.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\PivotalDataType.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\BestFuLib.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\Thread.h
+..\output\unitshare_attr.o: ..\SysHard\include\Instruct.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\UserData.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\fifo.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\cmdProcess.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\App\UnitCfg.h
+..\output\unitshare_attr.o: ..\..\Lib_Code\SysLib\include\UnitShare_Attr.h

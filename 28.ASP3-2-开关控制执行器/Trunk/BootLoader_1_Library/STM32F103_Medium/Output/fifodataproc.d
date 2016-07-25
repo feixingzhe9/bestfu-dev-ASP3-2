@@ -1,0 +1,10 @@
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\FifoDataProc.c
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\include\lib_type.h
+..\output\fifodataproc.o: ..\SysHard\include\cpu.h
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\include\lib_config.h
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\include\crc.h
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\include\fifo.h
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\include\BestFuLib.h
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\include\DataEncrypt.h
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\include\PivotalDataType.h
+..\output\fifodataproc.o: ..\..\Lib_Code\SysLib\include\FifoDataProc.h

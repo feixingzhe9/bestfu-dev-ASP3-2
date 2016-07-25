@@ -1,0 +1,14 @@
+..\output\systestattr.o: ..\Lib_code\SysLib\SysTestAttr.c
+..\output\systestattr.o: ..\Lib_code\SysLib\inc\SysTestAttr.h
+..\output\systestattr.o: ..\Lib_code\App\UnitCfg.h
+..\output\systestattr.o: ..\Lib_code\App\BF_type.h
+..\output\systestattr.o: ..\Lib_code\SysLib\inc\BestFuLib.h
+..\output\systestattr.o: ..\Lib_code\SysLib\inc\UserData.h
+..\output\systestattr.o: ..\Lib_code\SysHard\inc\SI4432.h
+..\output\systestattr.o: ..\Lib_code\SysHard\inc\USART.h
+..\output\systestattr.o: ..\Lib_code\SysLib\inc\cmdProcess.h
+..\output\systestattr.o: ..\Lib_code\SysLib\inc\FIFO.h
+..\output\systestattr.o: ..\Lib_code\SysLib\inc\command.h
+..\output\systestattr.o: ..\Lib_code\SysHard\inc\Test.h
+..\output\systestattr.o: ..\Lib_code\SysLib\inc\Thread.h
+..\output\systestattr.o: ..\Lib_code\SysLib\inc\Upload.h

@@ -1,0 +1,11 @@
+..\output\sign433.o: ..\Lib_code\SysLib\Sign433.c
+..\output\sign433.o: ..\Lib_code\SysLib\inc\Sign433.h
+..\output\sign433.o: ..\Lib_code\App\BF_type.H
+..\output\sign433.o: ..\Lib_code\SysLib\inc\BestFuLib.h
+..\output\sign433.o: ..\Lib_code\SysLib\inc\Thread.h
+..\output\sign433.o: ..\Lib_code\SysLib\inc\MsgPackage.h
+..\output\sign433.o: ..\Lib_code\SysLib\inc\command.h
+..\output\sign433.o: ..\Lib_code\SysLib\inc\fifo.h
+..\output\sign433.o: ..\Lib_code\App\UnitCfg.h
+..\output\sign433.o: ..\Lib_code\SysLib\inc\UserData.h
+..\output\sign433.o: ..\Lib_code\SysHard\inc\SI4432.h

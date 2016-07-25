@@ -1,0 +1,11 @@
+..\output\deviceupgradeattr.o: ..\..\Lib_Code\SysLib\DeviceUpgradeAttr.c
+..\output\deviceupgradeattr.o: ..\..\Lib_Code\SysLib\include\lib_type.h
+..\output\deviceupgradeattr.o: ..\SysHard\include\cpu.h
+..\output\deviceupgradeattr.o: ..\..\Lib_Code\SysLib\include\lib_config.h
+..\output\deviceupgradeattr.o: ..\..\Lib_Code\SysLib\include\PivotalDataType.h
+..\output\deviceupgradeattr.o: ..\..\Lib_Code\SysLib\include\Updata.h
+..\output\deviceupgradeattr.o: ..\..\Lib_Code\SysLib\include\Thread.h
+..\output\deviceupgradeattr.o: ..\SysHard\include\si4432.h
+..\output\deviceupgradeattr.o: ..\SysHard\include\iwdg.h
+..\output\deviceupgradeattr.o: ..\..\Lib_Code\SysLib\include\DevPartTab.h
+..\output\deviceupgradeattr.o: ..\..\Lib_Code\SysLib\include\DeviceUpgradeAttr.h
